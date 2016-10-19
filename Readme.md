@@ -9,3 +9,13 @@ http://phaser.io/examples/v2/games/tanks
 In this example two players can control the same tank with their smartphones instead of
 one player by keyboard and mouse.
 One player is the driver and the other one is the shooter.
+
+### LIVE VERSION
+
+Simulator:
+
+https://www.airconsole.com/simulator/#https://storage.googleapis.com/com.airconsole.example.phaser.cdn.airconsole.com/2016-10-19-09-03-48/
+
+With your device:
+
+https://www.airconsole.com/#https://storage.googleapis.com/com.airconsole.example.phaser.cdn.airconsole.com/2016-10-19-09-03-48/
