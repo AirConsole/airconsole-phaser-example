@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style type="text/css">
+      body, html {
+        height: 100%;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      body {
+        text-align: center;
+        font-family: arial, sans-serif;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+        background-color: #122232;
+      }
+
+      .button {
+        width: 50%;
+        height: 100%;
+        background: #333333;
+        color: #FFFFFF;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 30%;
+        float: left;
+        text-transform: uppercase;
+      }
+
+      .button:active, .button:focus {
+        background: #555555;
+      }
+
+      #role_info {
+        color: #c3b225;
+        position: absolute;
+        bottom: 2%;
+        left: 0;
+        width: 100%;
+        pointer-events: none;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="btn_left" class="button">left</div>
+    <div id="btn_right" class="button">right</div>
+    <div id="role_info"></div>
+    <!-- Load libs -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="//www.airconsole.com/api/airconsole-1.5.0.js"></script>
+    <script type="text/javascript" src="js/libs/utils.js"></script>
+    <!-- Game and AirConsole specific code -->
+    <script type="text/javascript" src="js/controller/controller.js"></script>
+  </body>
+</html>
